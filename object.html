@@ -6,10 +6,14 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <ul>
-      <li>car</li>
-      <li>bsike</li>
-    </ul>
+    <p id="adi"></p>
+    <script>
+      const toy = new Object({
+        toy1: "car",
+        toy2: "bike",
+        toy3: "doll",
+      });
+      document.getElementById("adi").innerHTML = toy.toy1;
+    </script>
   </body>
 </html>
